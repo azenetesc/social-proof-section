@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat no-repeat;
+  background-position: top, bottom;
+  font-size: 0.9375rem;
+  font-family: "Spartan", sans-serif;
+}
+
+.container {
+  width: 88%;
+  margin: 4.875rem auto;
+}
+
+.titles {
+  text-align: center;
+}
+.titles .main-title {
+  font-size: 1.95rem;
+  font-weight: 700;
+  width: 16rem;
+  margin: auto;
+  line-height: 30px;
+  color: #502050;
+}
+.titles .main-text {
+  color: #937b92;
+  font-weight: 500;
+  font-size: 0.90625rem;
+  line-height: 24px;
+  margin-top: 1.25rem;
+}
+
+.ratings {
+  text-align: center;
+  margin-top: 2.25rem;
+  margin-bottom: 2.9375rem;
+}
+.ratings .rated {
+  background-color: #f7f2f7;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 0.9rem;
+}
+.ratings .rated::before {
+  content: "";
+  display: block;
+  background-image: url("/images/icon-star.svg");
+  width: 85px;
+  height: 1rem;
+  background-repeat: space;
+  margin: 0 auto;
+  margin-bottom: 0.7rem;
+}
+.ratings .rated span {
+  color: #502050;
+  font-weight: 700;
+  font-size: 0.8125rem;
+}
+
+.reviews img {
+  border-radius: 50%;
+  max-width: 2.5rem;
+}
+.reviews .user-review {
+  background-color: #502050;
+  border-radius: 8px;
+  padding: 2.3125rem 2rem;
+  margin-bottom: 1rem;
+}
+.reviews .user-review:last-of-type {
+  margin-bottom: 0;
+}
+.reviews .review-text {
+  font-size: 0.7875rem;
+  line-height: 22px;
+  color: #f7f2f7;
+  margin-top: 1.5rem;
+}
+
+.user-review-info {
+  display: flex;
+  align-items: center;
+}
+.user-review-info .user-review-name {
+  margin-left: 1.2rem;
+}
+.user-review-info .user-review-name .user-name {
+  color: white;
+  font-weight: 500;
+  font-size: 0.75rem;
+  margin-bottom: 0.2rem;
+}
+.user-review-info .user-review-name .status {
+  color: #ee68a4;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=main.css.map */

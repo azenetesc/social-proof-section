@@ -1,0 +1,41 @@
+@use "functions" as *;
+body {
+  background-image: url(/images/bg-pattern-top-mobile.svg),
+    url(/images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat no-repeat;
+  background-position: top, bottom;
+  font-size: rem(15);
+  font-family: var(--ff-main);
+  height: 100vh;
+}
+
+.container {
+  width: 88%;
+  margin: rem(78) auto;
+}
+
+.titles {
+  text-align: center;
+  .main-title {
+    font-size: rem(31.2);
+    font-weight: var(--fw-bolder);
+    margin: auto;
+    line-height: 30px;
+    color: var(--very-dark-magenta);
+  }
+  .main-text {
+    color: var(--dark-grayish-magenta);
+    font-weight: var(--fw-bold);
+    font-size: rem(14.5);
+    line-height: 24px;
+    margin-top: rem(20);
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

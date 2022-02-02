@@ -1,0 +1,40 @@
+@use "../base/functions" as *;
+
+.reviews {
+  img {
+    border-radius: 50%;
+    max-width: rem(40);
+  }
+  .user-review {
+    background-color: var(--very-dark-magenta);
+    border-radius: 8px;
+    padding: rem(37) rem(32);
+    margin-bottom: 1rem;
+  }
+
+  .review-text {
+    font-size: rem(12.6);
+    line-height: 22px;
+    color: var(--light-grayish-magenta);
+    margin-top: 1.5rem;
+  }
+}
+
+.user-review-info {
+  display: flex;
+  align-items: center;
+  .user-review-name {
+    margin-left: 1.2rem;
+    .user-name {
+      color: var(--white);
+      font-weight: var(--fw-bold);
+      font-size: rem(12);
+      margin-bottom: 0.2rem;
+    }
+    .status {
+      color: var(--soft-pink);
+      font-weight: var(--fw-normal);
+      font-size: rem(12);
+    }
+  }
+}

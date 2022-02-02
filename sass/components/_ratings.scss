@@ -1,0 +1,29 @@
+@use "../base/functions" as *;
+.ratings {
+  text-align: center;
+  margin-top: rem(36);
+  margin-bottom: rem(47);
+
+  .rated {
+    background-color: var(--light-grayish-magenta);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+
+    &::before {
+      content: "";
+      display: block;
+      background-image: url("/images/icon-star.svg");
+      width: 100px;
+      height: 1rem;
+      background-repeat: space;
+      margin: 0 auto;
+      margin-bottom: 0.7rem;
+    }
+    span {
+      color: var(--very-dark-magenta);
+      font-weight: var(--fw-bolder);
+      font-size: rem(13);
+    }
+  }
+}

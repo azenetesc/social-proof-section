@@ -89,7 +89,7 @@ select {
 }
 
 body {
-  background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+  background-image: url(../../images/bg-pattern-top-mobile.svg), url(../../images/bg-pattern-bottom-mobile.svg);
   background-repeat: no-repeat no-repeat;
   background-position: top, bottom;
   font-size: 0.9375rem;
@@ -143,7 +143,7 @@ body {
 .ratings .rated::before {
   content: "";
   display: block;
-  background-image: url("/images/icon-star.svg");
+  background-image: url("../../images/icon-star.svg");
   width: 100px;
   height: 1rem;
   background-repeat: space;
@@ -194,7 +194,7 @@ body {
 
 @media screen and (min-width: 50em) {
   body {
-    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-image: url(../../images/bg-pattern-top-desktop.svg), url(../../images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat no-repeat;
     background-position: top left, bottom right;
   }
